@@ -4,36 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "12f3c53d5f6d6d98",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "47316f2c02dd9e03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Основной сюжет.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "0a212626fe381419",
         "type": "tabs",
         "children": [
           {
-            "id": "d6cf82f2408803f8",
+            "id": "e70134827a184e98",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Info/Skills.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ed2aa11ae36173b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shenghua Quest.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Основной сюжет.md",
+                "file": "Shenghua Quest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Основной сюжет.md",
+                "file": "Shenghua Quest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Основной сюжет.md"
+                "file": "Shenghua Quest.md"
               }
             }
           }
@@ -160,9 +159,30 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "47316f2c02dd9e03",
+  "active": "9ed2aa11ae36173b",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Основной сюжет.md"
+    "Music.md",
+    "Shenghua Quest.md",
+    "Story.md",
+    "Idea.md",
+    "Glossary.md",
+    "Info/SkillsTree.md",
+    "Info/Skills.md",
+    "Без названия",
+    "Storys/Part 2.md",
+    "Storys/Part 1.md",
+    "Storys/Part 6.md",
+    "Img/SkillTreeImg.png",
+    "Img",
+    "Info",
+    "Storys/Part 4.md",
+    "Storys/Part 3.md",
+    "Storys/Part 5.md",
+    "Storys",
+    "Сюжет 3.md",
+    "Сюжет 2.md",
+    "Сюжет 1.md",
+    "Pasted image 20240515131332.png",
+    "Welcome.md"
   ]
 }
