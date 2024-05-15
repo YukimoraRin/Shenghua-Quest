@@ -1,9 +1,9 @@
 Здесь собранный основной сюжет игры по частям
-- [Part 1](Storys/Part%201.md)
-- [Part 2](Storys/Part%202.md)
-- [Part 3](Storys/Part%203.md)
-- [Part 4](Storys/Part%204.md)
-- [Part 5](Storys/Part%205.md)
-- [Part 6](Storys/Part%206.md)
+- [Part_1](Storys/Part_1.md)
+- [Part_2](Storys/Part_2.md)
+- [Part_3](Storys/Part_3.md)
+- [Part_4](Storys/Part_4.md)
+- [Part_5](Storys/Part_5.md)
+- [Part_6](Storys/Part_6.md)
 
 [Назад](index.md)

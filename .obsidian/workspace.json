@@ -11,9 +11,11 @@
             "id": "c94aee438ad1ea11",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Game/icon.svg"
+                "file": "Storys/Part_6.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game/icon.svg",
+                "file": "Storys/Part_6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game/icon.svg",
+                "file": "Storys/Part_6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game/icon.svg"
+                "file": "Storys/Part_6.md"
               }
             }
           }
@@ -144,29 +146,30 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "7f71acb31900da76",
+  "active": "c94aee438ad1ea11",
   "lastOpenFiles": [
+    "Storys/Part_5.md",
+    "Storys/Part_4.md",
+    "Storys/Part_3.md",
+    "Storys/Part_2.md",
+    "Storys/Part_1.md",
+    "Game/icon.svg",
     "index.md",
     "Info/Guilds.md",
     "Info/Cash.md",
-    "Storys/Part 2.md",
-    "Storys/Part 1.md",
     "Info/SkillsTree.md",
     "Info/EssenceBall.md",
     "Music.md",
-    "Storys/Part 3.md",
-    "Storys/Part 4.md",
     "Glossary.md",
     "Info/Skills.md",
     "Story.md",
     "Idea.md",
     "Img/ЕssenceBall.jpg",
     "Без названия",
-    "Storys/Part 6.md",
+    "Storys/Part_6.md",
     "Img/SkillTreeImg.png",
     "Img",
     "Info",
-    "Storys/Part 5.md",
     "Storys",
     "Сюжет 3.md",
     "Сюжет 2.md",
