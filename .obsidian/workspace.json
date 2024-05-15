@@ -11,11 +11,9 @@
             "id": "c94aee438ad1ea11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "Game/icon.svg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Game/icon.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Game/icon.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Game/icon.svg"
               }
             }
           }
@@ -146,15 +144,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c94aee438ad1ea11",
+  "active": "7f71acb31900da76",
   "lastOpenFiles": [
+    "index.md",
     "Info/Guilds.md",
     "Info/Cash.md",
     "Storys/Part 2.md",
     "Storys/Part 1.md",
     "Info/SkillsTree.md",
     "Info/EssenceBall.md",
-    "index.md",
     "Music.md",
     "Storys/Part 3.md",
     "Storys/Part 4.md",
