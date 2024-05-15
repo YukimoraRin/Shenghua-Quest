@@ -6,4 +6,4 @@
 - [Part5](Storys/Part5.md)
 - [Part6](Storys/Part6.md)
 
-[Назад](index.md)
+[Назад](index.md) 

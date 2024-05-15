@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storys/Part6.md",
+                "file": "Story.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75747326cc1b17a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/Skills.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storys/Part6.md",
+                "file": "Story.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storys/Part6.md",
+                "file": "Story.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storys/Part6.md"
+                "file": "Story.md"
               }
             }
           }
@@ -148,23 +160,23 @@
   },
   "active": "c94aee438ad1ea11",
   "lastOpenFiles": [
+    "Music.md",
+    "index.md",
+    "Idea.md",
+    "Glossary.md",
+    "Storys/Part6.md",
     "Storys/Part5.md",
     "Storys/Part4.md",
     "Storys/Part3.md",
     "Storys/Part2.md",
     "Storys/Part1.md",
-    "Story.md",
-    "Storys/Part6.md",
-    "Game/icon.svg",
-    "index.md",
-    "Info/Guilds.md",
-    "Info/Cash.md",
-    "Info/SkillsTree.md",
-    "Info/EssenceBall.md",
-    "Music.md",
-    "Glossary.md",
     "Info/Skills.md",
-    "Idea.md",
+    "Info/SkillsTree.md",
+    "Info/Guilds.md",
+    "Info/EssenceBall.md",
+    "Info/Cash.md",
+    "Story.md",
+    "Game/icon.svg",
     "Img/ЕssenceBall.jpg",
     "Без названия",
     "Img/SkillTreeImg.png",
