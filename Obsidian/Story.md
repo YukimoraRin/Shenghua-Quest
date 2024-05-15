@@ -6,4 +6,4 @@
 - [Part 5](Storys/Part%205.md)
 - [Part 6](Storys/Part%206.md)
 
-[Назад](Shenghua%20Quest.md)
+[Назад](index.md)

@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=3 uid="uid://oawh8e0jyf3y"]
+
+[ext_resource type="Texture2D" uid="uid://up6fvfm4fjx5" path="res://Resources/MenuBackground.jpg" id="1_20dq8"]
+[ext_resource type="Texture2D" uid="uid://ffnclsg43xmn" path="res://Resources/MenuBtnDefault.png" id="2_p28bk"]
+[ext_resource type="Texture2D" uid="uid://cixqiwu78kpfo" path="res://Resources/MenuBtnPressed.png" id="3_t3go5"]
+[ext_resource type="Texture2D" uid="uid://cmdeanoymppe3" path="res://Resources/MenuBtnActive.png" id="4_ltpfu"]
+
+[node name="root" type="Node2D"]
+
+[node name="MenuBackground" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(960, 555)
+scale = Vector2(1, 1.02778)
+texture = ExtResource("1_20dq8")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 100.0
+offset_top = 130.0
+offset_right = 600.0
+offset_bottom = 230.0
+texture_normal = ExtResource("2_p28bk")
+texture_pressed = ExtResource("3_t3go5")
+texture_hover = ExtResource("4_ltpfu")
+
+[node name="Label" type="Label" parent="TextureButton"]
+layout_mode = 0
+offset_right = 500.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "START"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton2" type="TextureButton" parent="."]
+offset_left = 100.0
+offset_top = 250.0
+offset_right = 600.0
+offset_bottom = 350.0
+texture_normal = ExtResource("2_p28bk")
+texture_pressed = ExtResource("3_t3go5")
+texture_hover = ExtResource("4_ltpfu")
+
+[node name="Label" type="Label" parent="TextureButton2"]
+offset_right = 500.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton3" type="TextureButton" parent="."]
+offset_left = 100.0
+offset_top = 370.0
+offset_right = 600.0
+offset_bottom = 470.0
+texture_normal = ExtResource("2_p28bk")
+texture_pressed = ExtResource("3_t3go5")
+texture_hover = ExtResource("4_ltpfu")
+
+[node name="Label" type="Label" parent="TextureButton3"]
+offset_right = 500.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "..."
+horizontal_alignment = 1
+vertical_alignment = 1

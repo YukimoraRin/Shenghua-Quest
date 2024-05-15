@@ -2,4 +2,4 @@
 - [Навыки](Info/Skills.md)
 - [Дерево навыков](Info/SkillsTree.md)
 
-[Назад](Shenghua%20Quest.md)
+[Назад](index.md)

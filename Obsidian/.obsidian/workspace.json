@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0a212626fe381419",
+        "id": "d2dc6cae85fe101a",
         "type": "tabs",
         "children": [
           {
-            "id": "e70134827a184e98",
+            "id": "c94aee438ad1ea11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/Skills.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ed2aa11ae36173b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shenghua Quest.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shenghua Quest.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shenghua Quest.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shenghua Quest.md"
+                "file": "index.md"
               }
             }
           }
@@ -159,24 +146,28 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "9ed2aa11ae36173b",
+  "active": "c94aee438ad1ea11",
   "lastOpenFiles": [
-    "Music.md",
-    "Shenghua Quest.md",
-    "Story.md",
-    "Idea.md",
-    "Glossary.md",
-    "Info/SkillsTree.md",
-    "Info/Skills.md",
-    "Без названия",
+    "Info/Guilds.md",
+    "Info/Cash.md",
     "Storys/Part 2.md",
     "Storys/Part 1.md",
+    "Info/SkillsTree.md",
+    "Info/EssenceBall.md",
+    "index.md",
+    "Music.md",
+    "Storys/Part 3.md",
+    "Storys/Part 4.md",
+    "Glossary.md",
+    "Info/Skills.md",
+    "Story.md",
+    "Idea.md",
+    "Img/ЕssenceBall.jpg",
+    "Без названия",
     "Storys/Part 6.md",
     "Img/SkillTreeImg.png",
     "Img",
     "Info",
-    "Storys/Part 4.md",
-    "Storys/Part 3.md",
     "Storys/Part 5.md",
     "Storys",
     "Сюжет 3.md",

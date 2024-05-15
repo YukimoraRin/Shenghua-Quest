@@ -30,4 +30,4 @@
 ### Ссылки
 - [Навыки](Skills.md)
 
-[Глоссарий](../Glossary.md) | [Главная](../Shenghua%20Quest.md) 
+[Глоссарий](../Glossary.md) | [Главная](../index.md) 
