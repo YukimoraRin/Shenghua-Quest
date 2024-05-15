@@ -4,5 +4,6 @@
 - [Валюта (Руны)](Info/Cash.md)
 - [Шар сущности](Info/EssenceBall.md)
 - [Гильдии](Info/Guilds.md)
+- [Таверны](Info/Taverns.md)
 
 [Назад](index.md) 

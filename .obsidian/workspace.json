@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story.md",
+                "file": "Info/Cash.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Story.md",
+                "file": "Info/Cash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Story.md",
+                "file": "Info/Cash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Story.md"
+                "file": "Info/Cash.md"
               }
             }
           }
@@ -160,22 +160,23 @@
   },
   "active": "c94aee438ad1ea11",
   "lastOpenFiles": [
+    "Info/EssenceBall.md",
+    "Info/Cash.md",
+    "Storys/Part1.md",
+    "Storys/Part2.md",
+    "Glossary.md",
+    "Storys/Part3.md",
+    "Info/Taverns.md",
+    "Info/SkillsTree.md",
+    "Info/Skills.md",
+    "Info/Guilds.md",
+    "Story.md",
     "Music.md",
     "index.md",
     "Idea.md",
-    "Glossary.md",
     "Storys/Part6.md",
     "Storys/Part5.md",
     "Storys/Part4.md",
-    "Storys/Part3.md",
-    "Storys/Part2.md",
-    "Storys/Part1.md",
-    "Info/Skills.md",
-    "Info/SkillsTree.md",
-    "Info/Guilds.md",
-    "Info/EssenceBall.md",
-    "Info/Cash.md",
-    "Story.md",
     "Game/icon.svg",
     "Img/ЕssenceBall.jpg",
     "Без названия",

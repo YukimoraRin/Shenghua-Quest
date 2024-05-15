@@ -26,6 +26,6 @@
 - [Шар сущности](../Info/EssenceBall.md)
 - [Валюта (Руны)](../Info/Cash.md)
 - [Гильдия авантюристов](../Info/Guilds.md#Гильдия%20авантюристов%20(Adventurers'%20Guild))
-- Таверны
+- [Таверны](../Info/Taverns.md)
 
 [Назад](Part1.md) | [Главная](../Story.md) | [Дальше](Part3.md) 
