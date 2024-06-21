@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://chxqtykngovh7"]
+
+[ext_resource type="TileSet" uid="uid://c3ygdq0fg1qvf" path="res://Resources/GUI/tile_set.tres" id="1_5hnus"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pklb2"]
+radius = 9.0
+
+[node name="Mob_test_1" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pklb2")
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2(-4, -4)
+scale = Vector2(0.5, 0.5)
+tile_set = ExtResource("1_5hnus")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 589826, 9)

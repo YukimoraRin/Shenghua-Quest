@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://ddyting1fm17o"]
+
+[ext_resource type="PackedScene" uid="uid://chfe4p72r3yj4" path="res://Scenes/player.tscn" id="1_j1qwq"]
+[ext_resource type="PackedScene" uid="uid://dymnrsh46rpsu" path="res://Mobs/SpawnerArea.tscn" id="2_kaag7"]
+[ext_resource type="PackedScene" uid="uid://chxqtykngovh7" path="res://Mobs/mob_test_1.tscn" id="3_ohe0g"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_uyah5"]
+specular_color = Color(0.576471, 1, 1, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n1rue"]
+size = Vector2(1637, 40)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_j1qwq")]
+position = Vector2(1002, 906)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="StaticBody2D"]
+offset_left = 178.0
+offset_top = 1011.0
+offset_right = 1815.0
+offset_bottom = 1051.0
+texture = SubResource("CanvasTexture_uyah5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(996.5, 1031)
+shape = SubResource("RectangleShape2D_n1rue")
+debug_color = Color(0.822187, 0.366667, 0.435227, 0.42)
+
+[node name="MOBS" type="Node2D" parent="."]
+position = Vector2(-625, -319)
+
+[node name="Mob_test_1" parent="MOBS" instance=ExtResource("3_ohe0g")]
+
+[node name="SpawnerArea" parent="." instance=ExtResource("2_kaag7")]
+position = Vector2(331, 739)
+MOBS_count = 6
+MOBS_type = "res://Scenes/player.tscn"
+SPAWN_time = 4
+dist = 600

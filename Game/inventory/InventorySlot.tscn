@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://w4xnqmqxq3ht"]
+
+[ext_resource type="Texture2D" uid="uid://bo0nw4v3nb4n1" path="res://Resources/GUI/Slot.png" id="1_6tsry"]
+[ext_resource type="Texture2D" uid="uid://vl25w2acjkni" path="res://Resources/GUI/lookSlot.png" id="1_gq2b8"]
+[ext_resource type="Script" path="res://inventory/scripts/InventorySlot.gd" id="1_lug2p"]
+[ext_resource type="Texture2D" uid="uid://chg2ty3polumu" path="res://Resources/GUI/FullSlot.png" id="2_6078u"]
+[ext_resource type="Texture2D" uid="uid://i3m6dklj8h7v" path="res://Resources/GUI/PlatzHalter.png" id="2_gmxpm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cernm"]
+
+[node name="InventorySlot" type="Panel"]
+offset_right = 64.0
+offset_bottom = 64.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_cernm")
+script = ExtResource("1_lug2p")
+
+[node name="lookSlot" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1_gq2b8")
+centered = false
+
+[node name="leerSlot" type="Sprite2D" parent="."]
+texture = ExtResource("1_6tsry")
+centered = false
+
+[node name="fullSlot" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_6078u")
+centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="fullSlot"]
+offset_right = 64.0
+offset_bottom = 64.0
+
+[node name="Panel" type="Panel" parent="fullSlot/CenterContainer"]
+layout_mode = 2
+
+[node name="item" type="Sprite2D" parent="fullSlot/CenterContainer/Panel"]
+texture = ExtResource("2_gmxpm")

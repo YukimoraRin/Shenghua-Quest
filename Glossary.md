@@ -5,5 +5,8 @@
 - [Шар сущности](Info/EssenceBall.md)
 - [Гильдии](Info/Guilds.md)
 - [Таверны](Info/Taverns.md)
+- [Подземелье](Info/Dungeon.md)
+- [Артефакты](Info/Artifacts.md)
+- [Шенгуа](Info/Schenghua.md)
 
 [Назад](index.md) 

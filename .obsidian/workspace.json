@@ -13,7 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/Cash.md",
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "003d1354f0fd1693",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Без названия.canvas",
+                "viewState": {
+                  "x": 21.628053806223733,
+                  "y": 305.6781775677518,
+                  "zoom": 1.1102230246251565e-16
+                }
+              }
+            }
+          },
+          {
+            "id": "c5d999daf91dab0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "425b2a65781fd1ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "НадоСделать.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +70,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/Cash.md",
+                "file": "НадоСделать.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/Cash.md",
+                "file": "НадоСделать.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/Cash.md"
+                "file": "НадоСделать.md"
               }
             }
           }
@@ -158,36 +198,54 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c94aee438ad1ea11",
+  "active": "425b2a65781fd1ce",
   "lastOpenFiles": [
-    "Info/EssenceBall.md",
-    "Info/Cash.md",
-    "Storys/Part1.md",
-    "Storys/Part2.md",
-    "Glossary.md",
-    "Storys/Part3.md",
-    "Info/Taverns.md",
-    "Info/SkillsTree.md",
+    "Game/inventory/InvB782.tmp",
+    "Game/inventory/scripts/InvADD9.tmp",
+    "Game/inventory/InvACCD.tmp",
+    "Game/inventory/InvFF36.tmp",
+    "Game/inventory/scripts/InvFD95.tmp",
+    "Game/inventory/InvAF71.tmp",
+    "Game/inventory/scripts/InvA694.tmp",
+    "Game/inventory/InvA653.tmp",
+    "Game/inventory/Inv246F.tmp",
+    "Game/inventory/scripts/Inv1FD7.tmp",
+    "Game/inventory/Inv1F96.tmp",
+    "Game/Resources/GUI/lookSlot.png",
+    "Game/Resources/GUI/PlatzHalter.png",
+    "Game/Resources/GUI/FullSlot.png",
+    "Game/Resources/GUI/Slot.png",
+    "Classes.md",
+    "Без названия.canvas",
+    "index.md",
+    "НадоСделать.md",
     "Info/Skills.md",
+    "Game/Resources/GUI/Sliced/GUI_4x_sliced.png",
+    "Game/Resources/GUI/Sliced/GUI_2x_sliced.png",
+    "Game/Resources/GUI/Sliced/GUI_1x_sliced.png",
+    "Game/Resources/GUI/GUI_4x.png",
+    "Game/Resources/GUI/GUI_2x.png",
+    "Game/Resources/GUI/GUI_1x.png",
+    "Idea.md",
+    "Glossary.md",
+    "Info/Artifacts.md",
+    "Music.md",
+    "Info/Schenghua.md",
+    "Storys/Part1.md",
+    "Info/Dungeon.md",
+    "Info/Cash.md",
+    "Storys/Part3.md",
+    "Storys/Part2.md",
+    "Info/SkillsTree.md",
+    "Info/EssenceBall.md",
+    "Info/Taverns.md",
     "Info/Guilds.md",
     "Story.md",
-    "Music.md",
-    "index.md",
-    "Idea.md",
     "Storys/Part6.md",
     "Storys/Part5.md",
     "Storys/Part4.md",
-    "Game/icon.svg",
-    "Img/ЕssenceBall.jpg",
-    "Без названия",
-    "Img/SkillTreeImg.png",
-    "Img",
-    "Info",
-    "Storys",
     "Сюжет 3.md",
     "Сюжет 2.md",
-    "Сюжет 1.md",
-    "Pasted image 20240515131332.png",
-    "Welcome.md"
+    "Сюжет 1.md"
   ]
 }

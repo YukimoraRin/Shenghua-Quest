@@ -1,0 +1,82 @@
+[gd_scene load_steps=11 format=3 uid="uid://chfe4p72r3yj4"]
+
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_wydab"]
+[ext_resource type="Texture2D" uid="uid://dnsr2ciiddkg0" path="res://Resources/PlayersAnim/PlayerLook.png" id="2_54367"]
+[ext_resource type="Texture2D" uid="uid://cka54j37a4aqo" path="res://Resources/PlayersAnim/PlayerLookBottom.png" id="2_ok81h"]
+[ext_resource type="Texture2D" uid="uid://xiyw7kersoim" path="res://Resources/PlayersAnim/PlayerJump.png" id="5_ob47i"]
+[ext_resource type="Texture2D" uid="uid://bmmhjylmw3d0" path="res://Resources/PlayersAnim/PlayerLookTop.png" id="5_rmwb5"]
+[ext_resource type="Texture2D" uid="uid://cgcqpxkivyh6e" path="res://Resources/PlayersAnim/PlayerMove.png" id="6_cuflg"]
+[ext_resource type="PackedScene" uid="uid://6v2kc7sryb8t" path="res://inventory/Inventory.tscn" id="7_thrnl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnx65"]
+atlas = ExtResource("2_ok81h")
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n35r6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_54367")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cnx65")
+}],
+"loop": true,
+"name": &"Idle_Bottom",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_rmwb5")
+}],
+"loop": true,
+"name": &"Idle_Top",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_ob47i")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_cuflg")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n3d5b"]
+radius = 16.0
+height = 64.0
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_wydab")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D"]
+sprite_frames = SubResource("SpriteFrames_n35r6")
+animation = &"Idle_Bottom"
+autoplay = "Idle_Bottom"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_n3d5b")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Inventory" parent="UI" instance=ExtResource("7_thrnl")]
+visible = false
+offset_left = 595.0
+offset_top = 42.0
+offset_right = -46.0
+offset_bottom = -296.0

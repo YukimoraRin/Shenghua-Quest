@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dymnrsh46rpsu"]
+
+[ext_resource type="Script" path="res://Mobs/Scripts/SpawnerArea.gd" id="1_d78ax"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gmlre"]
+size = Vector2(363, 142)
+
+[node name="SpawnerArea" type="Node2D"]
+script = ExtResource("1_d78ax")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(182, 71)
+shape = SubResource("RectangleShape2D_gmlre")
+debug_color = Color(0, 0, 0, 0.258824)
